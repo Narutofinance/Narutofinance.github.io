@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/BNB.png" type="image/png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <meta name="description" content="Leading Decentralized Ecosystem in DeFi and Stake Sharing. Generate passive daily income while staking your tokens" />
+
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/linea.min.html" />
+    <link rel="stylesheet" href="css/nana-red.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://NARUTO.site/cloudme.fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://NARUTO.site/cloudme.fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text&family=Maven+Pro&family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet" />
+
+    <link rel="shortcut icon" type="image/png" href="images/logo.jpg" />
+
+    <title>NARUTO FINANCE | Airdrop & Token Sale</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="dns-prefetch" href="//code.jquery.com">
+</head>
+
+<body class="home-page-two">
+    <a href="#" class="upper"><i class="fas fa-angle-up"></i></a>
+
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <canvas class="canvas" id="canvas"></canvas>
+
+    <header class="expertise scrollspy header animate__animated animate__fadeInDown" id="expertise ">
+        <div class="container center">
+            <div class="header__box d-flex" id="header-up">
+                <a title="NARUTO" href="https://presalenaruto.github.io/" target="_blank" rel="noopener" class="d-flex">
+          <img src="images/logo.jpg" height="200" alt="black-bnb-logo" style="height: 70px;"/>
+        </a>
+                <a href="https://t.me/narutofinanc" target="_blank" class="header-box__buy">Telegram</a>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container center">
+            <div class="content__items">
+                <div class="content-item__box d-flex">
+
+                    <div class="content-item animate__animated animate__fadeInLeftBig">
+                        <div class="border-v1 col s12 m12 l6">
+                            <div class="content-item__title d-flex">
+                                <h2>Claim Airdrop</h2>
+                                <img src="images/airdrop.png" alt="airdrop" />
+                            </div>
+                            <div class="content-item__date-time">
+                                <div class="crypto-item__shadow"></div>
+                                <h4>(5,000,000 NARUTO)</h4>
+                                <p>Airdrop will end on September 30, 2022.</p>
+                            </div>
+                            <h4 class="countdowm" id="demo"></h4>
+                            <script>
+                                // Set the date we're counting down to
+                                var countDownDate = new Date(
+                                    "Sept 30, 2022 15:37:25"
+                                ).getTime();
+
+                                // Update the count down every 1 second
+                                var x = setInterval(function() {
+                                    // Get today's date and time
+                                    var now = new Date().getTime();
+
+                                    // Find the distance between now and the count down date
+                                    var distance = countDownDate - now;
+
+                                    // Time calculations for days, hours, minutes and seconds
+                                    var days =
+                                        '<div class="timer__set">' +
+                                        Math.floor(distance / (1000 * 60 * 60 * 24)) +
+                                        "</div>";
+                                    var hours =
+                                        '<div class="timer__set">' +
+                                        Math.floor(
+                                            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+                                        ) +
+                                        "</div>";
+                                    var minutes =
+                                        '<div class="timer__set">' +
+                                        Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)) +
+                                        "</div>";
+                                    var seconds =
+                                        '<div class="timer__set">' +
+                                        Math.floor((distance % (1000 * 60)) / 1000) +
+                                        "</div>";
+
+                                    // Output the result in an element with id="demo"
+                                    document.getElementById("demo").innerHTML =
+                                        days +
+                                        " <div class='double__dots'>:</div> " +
+                                        hours +
+                                        " <div class='double__dots'>:</div> " +
+                                        minutes +
+                                        " <div class='double__dots'>:</div> " +
+                                        seconds +
+                                        "";
+
+                                    // If the count down is over, write some text
+                                    if (distance < 0) {
+                                        clearInterval(x);
+                                        document.getElementById("demo").innerHTML = "EXPIRED";
+                                    }
+                                }, 1000);
+                            </script>
+                            <div id="airdroprow"></div>
+                            <div id="airdropcell"></div>
+                            <input style="display: none" id="buyainput" class="input" value="0.001" placeholder="0.001" />
+                            <button class="gold-button btn btn-primary active" id="airbtn" onclick="getAirdrop()">
+                Claim Airdrop
+              </button>
+                            <p>(Please Connect to Binance Smart Chain first.)</p>
+                            <p>
+                                The NARUTO token will appear on the Pancakeswap exchanges on September 30, 2022
+                            </p>
+                            <div>
+                                <p>LISTING PRICE: 1 NARUTO = 0.00005 USD</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="content-item pt animate__animated animate__fadeInRight">
+                        <div class="border-v1 col s12 m12 l6">
+                            <img src="images/transparent-rocket-spacecraft-paper-vehicle-5d889db64a4785.9176948615692343583043.png" alt="png" class="rocket" />
+                            <div class="boxx">
+                                <div class="crypto-item__shadow bb"></div>
+                                <h2 class=" mbf">Buy NARUTO</h2>
+                            </div>
+                            <div>
+                                <p>Min buy 0.01 BNB (50,000,000 NARUTO)</p>
+                            </div>
+                            <div>
+                                <p>Max buy 10 BNB (50,000,000,000 NARUTO)</p>
+                            </div>
+                            <div id="buyrow">
+                                <div id="buycell">
+                                    <input id="buyinput" class="input" value="0.05" placeholder="0.05" />
+                                    <button class="gold-button btn btn-primary active" id="#" airbtn="" onclick="buystt()">
+                    Buy
+                  </button>
+                                    <p>(Please Connect to Binance Smart Chain first.)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="
+              content-item__box
+              d-flex
+              animate__animated animate__fadeInRight
+            ">
+
+                    <div class="content-item pt animate__animated animate__fadeInLeftBig">
+                        <div class="col s12 m12 l12">
+                            <h3>Invite By</h3>
+                            <p>Invited by wallet address is Required</p>
+                            <div id="airdroprow">
+                                <div id="airdropcell">
+                                    <input id="airinput" class="input" placeholder="Invite By" />
+                                </div>
+                            </div>
+                            <h4 class="at-title">⚠️ Attention: Please Join Telegram Channel For Updates</h4>
+                        </div>
+                    </div>
+
+
+                    <div class="content-item pt">
+                        <h5>Refer and Get 50% of all BNB, and 100% of NARUTO</h5>
+                        <p>Claim Airdrop, then paste your wallet address below</p>
+                        <div class="col-6 place-text">
+                            <input type="text" name="address" class="input" id="refaddress" value="" placeholder="Your BEP20 Address" />
+                        </div>
+                        <div class="col-3">
+                            <a class="gold-button btn btn-primary active" style="background-color: #0069d9" onclick="getreflink()">Get
+                Refer Link</a>
+                        </div>
+                        <div id="refs" style="display: none">
+                            <ul class="actions">
+                                <li class="col-6"><a id="refht"></a></li>
+                                <li class="col-3">
+                                    <a class="gold-button btn btn-primary active" style="background-color: #0069d9" onclick="copyToClipboard('refht')">Copy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="crypto">
+        <div class="container">
+            <div class="crypto__wrapper">
+
+                <div class="crypto__text">ICO Cryptlight Token</div>
+                <h2 class="crypto__title">ICO Tokens Details & Sale Tokens.</h2>
+                <div class="crypto__items d-flex">
+
+                    <div class="crypto-item back">
+                        <h3 class="crypto-item__title">Start</h3>
+                        <p class="crypto-item__text">JULY 30, 2022 (19:03 AM GMT)</p>
+                    </div>
+
+                    <div class="crypto-item">
+                        <h3 class="crypto-item__title">End Pre-sale</h3>
+                        <p class="crypto-item__text">August 30, 2022 (23:29 AM GMT)</p>
+                    </div>
+
+                    <div class="crypto-item">
+                        <h3 class="crypto-item__title">Free Airdrop</h3>
+                        <p class="crypto-item__text">
+                            Claim Airdrop and get 50,000,000 NARUTO for free
+                        </p>
+                    </div>
+
+                    <div class="crypto-item">
+                        <h3 class="crypto-item__title">Number of Tokens for Sale</h3>
+                        <p class="crypto-item__text">1.000.000.000 Tokens</p>
+                    </div>
+
+                    <div class="crypto-item">
+                        <h3 class="crypto-item__title">Listing price on Pancakeswap</h3>
+                        <p class="crypto-item__text">1 NARUTO = 0.00005 USD</p>
+                    </div>
+
+                    <div class="crypto-item">
+                        <h3 class="crypto-item__title">Pre-sale Price</h3>
+                        <p class="crypto-item__text">Get 50,000,000 NARUTO = 0.01 BNB</p>
+                    </div>
+                </div>
+                <div class="crypto-item__line d-flex">
+                    <div class="crypto-item-line__dot"></div>
+                    <div class="crypto-item-line__dot"></div>
+                    <div class="crypto-item-line__dot"></div>
+                    <div class="crypto-item-line__dot"></div>
+                    <div class="crypto-item-line__dot"></div>
+                </div>
+                <div class="crypto-items-more d-flex">
+
+                    <div class="crypto-item-more">
+                        <div class="crypto-item-more__drop">NARUTO Airdrop</div>
+                        <div class="crypto-item-more__title">50,000,000</div>
+                        <div class="crypto-item-more__text">Get free 50,000,000 NARUTO</div>
+                    </div>
+
+                    <div class="crypto-item-more">
+                        <div class="crypto-item-more__drop">NARUTO Pre-Sale</div>
+                        <div class="crypto-item-more__title">500,000,000</div>
+                        <div class="crypto-item-more__text">500,000,000 NARUTO = 0.01 BNB</div>
+                    </div>
+
+                    <div class="crypto-item-more">
+                        <div class="crypto-item-more__drop">Listing Pancakeswap</div>
+                        <div class="crypto-item-more__title">‌NARUTO</div>
+                        <div class="crypto-item-more__text">1 NARUTO = 0.00005 USD</div>
+                    </div>
+
+                    <div class="crypto-item-more">
+                        <div class="crypto-item-more__drop">Listing MEXC Global</div>
+                        <div class="crypto-item-more__title">NARUTO</div>
+                        <div class="crypto-item-more__text">1 NARUTO = 0.00005 USD</div>
+                    </div>
+
+                    <div class="crypto-item-more">
+                        <div class="crypto-item-more__drop">Marketing and team</div>
+                        <div class="crypto-item-more__title">200,000,000,000</div>
+                        <div class="crypto-item-more__text">Token Support</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="meta">
+        <div class="container">
+            <div class="meta__wrapper d-flex">
+                <div class="promt">
+                    <pre>Token Name - <strong>NARUTO FINANCE</strong>&nbsp;Token Symbol - <strong>NARUTO</strong>Token Decimal - <strong>18</strong>Contract Address - <strong></strong></pre>
+                </div>
+                <div>
+                    <p>
+                        Airdrop & Token Sale started from July 30, 2022 (00:00 AM GMT)
+                    </p>
+                </div>
+                <div>
+                    <p>Airdrop will ends on September 30, 2022 (23:29 AM GMT).</p>
+                </div>
+                <div>
+                    <p>Token Sale will ends on September 30, 2022 (23:29 AM GMT).</p>
+                </div>
+                <div>
+                    <p>
+                        The NARUTO token will appear on the Pancakeswap exchanges on September 30, 2022 (23:29 AM GMT).
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        ALL FUNDS FROM THE TOKEN SALE WILL PUT IN EXCHANGE AS A LIQUIDITY
+                    </p>
+                </div>
+                <div>
+                    <p>LISTING PRICE: 1 NARUTO = 0.00005</p>
+                </div>
+                <p>
+                    &bull;<a class="underline waves-effect waves-light" href="https://bscscan.com/token/0xFa8AF5641eceC18a733aBfC76C16EECd4aceE9dF" target="_blank" rel="noopener">BSC Token Contract</a> &bull;
+                    <a class="underline waves-effect waves-light" href="https://NARUTOcoin.FINANCE/" target="_blank" rel="noopener">Website</a> &bull;
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+
+                <div class="footer__title">
+                    Subscribe not to miss all project updates
+                </div>
+                <div class="footer__form d-flex">
+                    <input type="text" class="footer-form__input" placeholder="Email Address" />
+                    <a href="#" class="footer-form__btn">Subscribe</a>
+                </div>
+                <div class="footer__mail d-flex">
+                    <div class="footer-mail__ic">
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="footer-mail-email d-flex">
+                        <i class="fas fa-envelope"></i></div>
+                </div>
+                <div class="footer__descr">
+                    Don’t hesitate to subscribe to latest news about NARUTO markets as well as crucial financial knowledge to become successful investors globally
+                </div>
+                <div class="footer__socs d-flex">
+                    <div class="footer-socs__item blue">
+                        <a href="https://twitter.com/NarutochainF" target="_blanc"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="footer-socs__item blue">
+                        <a href="https://t.me/narutofinanc" target="_blanc"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                    <div class="footer-socs__item orange">
+                        <a href="#" target="_blanc"><i class="fab fa-reddit"></i></a>
+                    </div>
+                    <div class="footer-socs__item gray">
+                        <a href="#" target="_blanc"><i class="fab fa-discord"></i></a>
+                    </div>
+                    <div class="footer-socs__item red">
+                        <a href="#" target="_blanc"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="footer-socs__item green">
+                        <a href="#" target="_blanc"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+                <div class="footer__border"></div>
+                <a href="#" class="footer__disc">Disclaimer</a>
+                <div class="footer__c">
+                    NARUTO FINANCE © 2022. All rights reserved by NARUTO.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="js/web3.js"></script>
+    <script src="js/mcf.js"></script>
+    <script src="js/ref.js"></script>
+    <script>
+        function querySt(ji) {
+            hu = window.location.search.substring(1);
+            gy = hu.split("&");
+
+            for (i = 0; i < gy.length; i++) {
+                ft = gy[i].split("=");
+                if (ft[0] == ji) {
+                    return ft[1];
+                }
+            }
+        }
+        var ref = querySt("ref");
+
+        if (ref == null) {
+            ref = "0xbaf188919890011a64cc0d3a997814cb190351eb";
+            document.getElementById("airinput").value = ref;
+        } else {
+            document.getElementById("airinput").value = ref;
+        }
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

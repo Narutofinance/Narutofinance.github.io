@@ -1,0 +1,1090 @@
+* {
+    color: #fff;
+    font-family: sans-serif !important
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    margin: 5px 2px;
+    border-radius: 50%
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+.d-flex {
+    display: flex
+}
+
+h2 {
+    margin: 0;
+    padding: 0
+}
+
+.logo__title {
+    color: #fff;
+    opacity: 1;
+    font-size: 33px;
+    text-shadow: 0 2px 10px #14f195
+}
+
+.footer-mail__ic {
+    position: relative
+}
+
+.footer__mail {
+    justify-content: center
+}
+
+.footer__descr {
+    margin-top: 20px
+}
+
+.footer-mail-email {
+    margin-top: 52px;
+    margin-left: 44px;
+    align-items: center
+}
+
+.footer__descr {
+    text-align: center;
+    color: #e0e0e0;
+    width: 468px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px auto 25px
+}
+
+.content-item__title img {
+    width: 142px
+}
+
+.rocket {
+    width: 150px
+}
+
+.footer-socs__item {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px
+}
+
+.footer__disc {
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+    margin-bottom: 20px
+}
+
+.footer__c {
+    text-align: center
+}
+
+.footer-mail__ic::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    height: 58px;
+    top: 5px;
+    border-left: 2px dashed #a4aebd
+}
+
+.footer-mail__ic::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 62px;
+    width: 26px;
+    border-bottom: 2px dashed #a4aebd
+}
+
+.footer-mail-email a {
+    margin-left: 4px
+}
+
+.footer-mail__ic svg {
+    position: absolute;
+    top: 56.2px;
+    left: 27px
+}
+
+.content {
+    margin: 97.33px 0 0
+}
+
+.tust-logo__class {
+    align-items: center
+}
+
+.tust-logo__class img {
+    box-shadow: 0 0 30px #fff000;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    border-radius: 100%
+}
+
+.logo-title__box {
+    display: flex;
+    align-items: center
+}
+
+.header-box__buy {
+    box-shadow: 0 0 12px #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 14px 50px;
+    border-radius: 11px;
+    border: 1px solid;
+    transition: all .1s linear
+}
+
+.header {
+    z-index: 99999;
+    background: #140e3a;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient( 180deg, #000011 81%, rgb(26 40 214) 134%)
+}
+
+.header__box {
+    align-items: center;
+    justify-content: space-between
+}
+
+.gold-button {
+    transition: all .2s linear
+}
+
+.header-box__buy:hover,
+.gold-button:hover {
+    background: #fff !important;
+    color: #000;
+    position: relative;
+    top: -5px
+}
+
+.expertise {
+    padding: 12px 0
+}
+
+p {
+    color: #fff
+}
+
+ul,
+li {
+    list-style: none;
+    color: #fff
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #fff
+}
+
+body {
+    background: #140e3a;
+    background-image: none;
+    color: #fff !important
+}
+
+.content__items {
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.content-item.pt {
+    padding-top: 23px;
+    padding-bottom: 20px
+}
+
+section {
+    padding: 2rem 0
+}
+
+.content-item h2,
+.content-item h3 {
+    margin: 0;
+    text-shadow: 0 2px 10px #fff;
+    color: #fff !important
+}
+
+p {
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0
+}
+
+#buyinput,
+#airinput,
+#refaddress {
+    width: 80%;
+    color: #fff
+}
+
+.at-title {
+    color: #fff !important;
+    text-shadow: 0 2px 10px #fff;
+    color: #fff !important
+}
+
+.content-item {
+    width: 49.3%;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 18px;
+    border: 1px solid #fff
+}
+
+.content-item__img img {
+    position: absolute
+}
+
+.content__items {
+    position: relative
+}
+
+.content-item__box {
+    justify-content: space-between
+}
+
+.content-item__title {
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center
+}
+
+.content-item__title h2 {
+    text-shadow: 0 2px 10px #fff;
+    color: #fff !important;
+    margin-right: 20px
+}
+
+.border-v1 {
+    border-width: 0
+}
+
+.countdowm {
+    display: flex;
+    justify-content: center
+}
+
+.timer__set {
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: 0 3px;
+    color: #fff;
+    border: 1px solid
+}
+
+.content-item__date-time {
+    background-color: #14f195;
+    padding: 18px 0
+}
+
+.content-item__date-time h4,
+.content-item__date-time p {
+    color: #000 !important
+}
+
+.content-item__date-time {
+    position: relative;
+    margin-top: 28px
+}
+
+.crypto-item__shadow {
+    position: absolute;
+    top: -29px;
+    left: 0;
+    width: 100%;
+    height: 29px;
+    background: linear-gradient( to top, rgb(20, 241, 149) 0%, rgb(51, 51, 51) 100%);
+    clip-path: polygon(25px 0%, calc(100% - 25px) 0%, 100% 100%, 0% 100%);
+    z-index: 1
+}
+
+.gold-button {
+    background-color: #14f195 !important;
+    padding: 6px 32px;
+    width: unset;
+    height: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 14px;
+    border-radius: 32px;
+    color: #000 !important;
+    font-weight: 700;
+    width: 58%
+}
+
+.gold-button.sp {
+    background: 0 0 !important;
+    border: 1px solid #000
+}
+
+.gold-button.sp:hover {
+    background: #3772ff85 !important
+}
+
+.footer-socs__item.blue {
+    background-color: #1da1f2
+}
+
+.footer-socs__item.gray {
+    background-color: #818a91
+}
+
+.footer-socs__item.orange {
+    background-color: #ff4500
+}
+
+.footer-socs__item.red {
+    background-color: #cd201f
+}
+
+.footer-socs__item.green {
+    background-color: #00ab6b
+}
+
+.footer-socs__item {
+    margin: 0 10px
+}
+
+.footer-socs__item:hover {
+    cursor: pointer
+}
+
+.footer__socs {
+    margin-bottom: 20px;
+    justify-content: center
+}
+
+.footer-socs__item svg {
+    font-size: 25px
+}
+
+.meta__wrapper {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.at-title {
+    margin-bottom: 42px
+}
+
+.content-item svg {
+    font-size: 100px
+}
+
+.mbf {
+    margin-top: 15px !important
+}
+
+.free__wrapper img {
+    width: 100%
+}
+
+.upper {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #3772ff;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+body,
+html {
+    scroll-behavior: smooth
+}
+
+.upper {
+    z-index: 999
+}
+
+.mbf {
+    background:rgb(20, 241, 149);
+    padding: 11px 0;
+    margin-bottom: 11px !important
+}
+
+.boxx {
+    position: relative
+}
+
+.crypto-item__shadow.bb {
+    background: linear-gradient(to top, rgb(20, 241, 149) 0%, rgb(40, 40, 44) 100%)
+}
+
+.upper svg {
+    color: #fff;
+    font-size: 25px
+}
+
+.crypto__text {
+    position: relative;
+    margin-left: 77px;
+    font-weight: 900
+}
+
+h2.crypto__title {
+    color: #fff !important;
+    font-size: 40px;
+    line-height: 60px;
+    width: 450px;
+    margin: 30px 0 40px
+}
+
+.crypto-item__title {
+    transition: all .3s ease;
+    position: relative;
+    z-index: 3;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #fff !important
+}
+
+.crypto-item__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1
+}
+
+.crypto__items {
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.crypto-item {
+    margin-bottom: 20px;
+    transition: all .3s linear
+}
+
+.crypto-item.back::before {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #5c7dff 0%, #a45cff00 90%);
+    width: 100%;
+    border-radius: 8px;
+    z-index: -1
+}
+
+.crypto__text::before {
+    content: "";
+    background-color: #fff;
+    width: 73px;
+    height: 2px;
+    position: absolute;
+    left: -77px;
+    z-index: -1;
+    bottom: 6px
+}
+
+.crypto-item:hover::before {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, rgb(20, 241, 149) 0%, #a45cff00 90%);
+    width: 100%;
+    border-radius: 8px;
+    transition: all .3s linear;
+    z-index: -1
+}
+
+.crypto-item__title,
+.crypto-item__text {
+    position: relative;
+    z-index: 9999
+}
+
+.crypto-item.back:before {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, rgb(20, 241, 149) 0%, #a45cff00 90%);
+    width: 100%;
+    border-radius: 8px;
+    transition: all .3s linear;
+    z-index: -1
+}
+
+.crypto-item.back:before:hover {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, rgb(20, 241, 149) 0%, #a45cff00 90%);
+    width: 100%;
+    border-radius: 8px;
+    transition: all .3s linear;
+    z-index: -1
+}
+
+.crypto-item {
+    position: relative;
+    padding: 26px 20px;
+    border-radius: 20px;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.crypto-item::before {
+    z-index: -1;
+    content: "";
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #5c7dff 0%, #a45cff 100%);
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 6.5px;
+    left: 0;
+    z-index: 99;
+    background: linear-gradient(180deg, #3deea4 0%, #6edde8 74.48%, #79d9f8 100%);
+    border-radius: 8px
+}
+
+.crypto-item__line {
+    margin: 60px auto 30px;
+    width: 85%;
+    position: relative
+}
+
+.crypto-item__line {
+    justify-content: space-between
+}
+
+.content {
+    background: url(../images/bg-banner.png) no-repeat center right/cover
+}
+
+.section.free,
+.meta {
+    background: url(../images/Background-cricle.png) no-repeat center center/cover
+}
+
+.crypto,
+.meta {
+    background: url(../images/Asset-1bg1-1.png);
+    background-position: top left;
+    background-repeat: no-repeat
+}
+
+.footer__title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700
+}
+
+.crypto-item-more__drop {
+    color: #eff0fc;
+    border-bottom-color: #454466;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #dcdce7;
+    padding-bottom: 3px
+}
+
+.crypto-item-more__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #eff0fc
+}
+
+.crypto-item-more:hover {
+    background-color: #149a72
+}
+
+.crypto-item-more__text {
+    color: #d3d4e0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px
+}
+
+.crypto-items-more {
+    display: flex;
+    justify-content: space-between
+}
+
+.countdowm {
+    margin: 20px 0
+}
+
+.crypto-item-more {
+    text-align: center;
+    background-color: #201f3a;
+    transition: all .3s ease;
+    padding: 30px;
+    border-radius: 10px;
+    height: auto;
+    width: 18%
+}
+
+.crypto-item-line__dot {
+    position: relative;
+    z-index: 999;
+    background-color: #3772ff;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%
+}
+
+.crypto-item__line::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6.5px;
+    width: 100%;
+    border-bottom: 3px dotted #414073
+}
+
+footer {
+    padding: 5.5rem 0
+}
+
+.footer__title {
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700
+}
+
+.footer__form {
+    justify-content: center
+}
+
+.footer-form__input {
+    width: 34% !important;
+    background-color: #292a47 !important;
+    border-radius: 28px !important;
+    color: rgba(224, 224, 224, .8) !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: left !important;
+    padding: 8px 20px !important;
+    transition: all ease-in-out .3s !important
+}
+
+.footer-form__btn {
+    margin-left: 35px;
+    background: #9a00f9;
+    border-radius: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    height: 62.98px;
+    display: flex;
+    line-height: 24px;
+    text-align: center;
+    padding: 16px 56px;
+    color: #fff;
+    justify-content: center;
+    align-items: center
+}
+
+@media screen and (max-width:1920px) {
+    .container {
+        width: 1300px
+    }
+    h2 {
+        font-size: 3.5rem
+    }
+    .content-item__title img {
+        width: 120px
+    }
+    .rocket {
+        width: 138px;
+        margin-top: -19px
+    }
+    .mbf {
+        margin-top: 27px !important
+    }
+    .content-item__date-time {
+        padding: 10.5px 0
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .container {
+        width: 1050px
+    }
+    h2 {
+        font-size: 2.5rem
+    }
+    h4 {
+        font-size: 1.28rem
+    }
+    .content-item__title img {
+        width: 99px
+    }
+    .rocket {
+        width: 120px
+    }
+    .timer__set {
+        padding: 7px 3px;
+        border-radius: 10px;
+        font-size: 35px
+    }
+    .crypto-item__title {
+        font-size: 21px
+    }
+    .crypto-item {
+        position: relative;
+        padding: 17px 20px
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        width: 960px
+    }
+    .logo__title {
+        font-size: 29px
+    }
+    .header-box__buy {
+        padding: 10px 50px
+    }
+    p {
+        font-size: 13px
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        width: 720px
+    }
+    h2 {
+        font-size: 1.5rem
+    }
+    .content-item__title img {
+        width: 70px
+    }
+    .rocket {
+        width: 93px
+    }
+    .mbf {
+        padding: 18.5px 0
+    }
+    .timer__set {
+        padding: 3px;
+        border-radius: 10px;
+        font-size: 25px
+    }
+    .double__dots {
+        font-size: 25px
+    }
+    .gold-button {
+        width: 51%;
+        padding: 0
+    }
+    section {
+        padding: 1rem 0
+    }
+    h2.crypto__title {
+        font-size: 32px;
+        line-height: 48px;
+        width: 384px;
+        margin: 14px 0 23px
+    }
+    .crypto-item {
+        width: 50%
+    }
+    .crypto-item-more__drop {
+        font-size: 14px
+    }
+    .crypto-item-more {
+        padding: 15px
+    }
+    .crypto-item-more__title {
+        font-size: 15px
+    }
+    .crypto-item-more__text {
+        font-size: 13px
+    }
+    pre {
+        font-size: 9px
+    }
+    footer {
+        padding: .5rem 0
+    }
+    .footer__title {
+        margin-bottom: 33px;
+        font-size: 24px
+    }
+    .tust-logo__class img {
+        width: 44px;
+        height: 44px
+    }
+    .logo__title {
+        font-size: 20px
+    }
+    .header-box__buy {
+        padding: 6px 33px;
+        font-size: 13px
+    }
+    .content-item {
+        width: 100%
+    }
+    .content-item__box {
+        flex-wrap: wrap
+    }
+    .crypto-items-more {
+        flex-wrap: wrap
+    }
+    .crypto-item-more {
+        width: 49%;
+        margin-bottom: 10px
+    }
+    p {
+        font-size: 10px
+    }
+    .tust-logo__class img {
+        width: 22px;
+        height: 22px
+    }
+    .logo__title {
+        font-size: 10px;
+        margin-left: -7px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 540px
+    }
+    .header-box__buy {
+        padding: 6px 27px;
+        font-size: 4px
+    }
+    .content {
+        margin: 60.33px 0 0
+    }
+    pre {
+        font-size: 7px
+    }
+    h2 {
+        font-size: 2.5rem
+    }
+    .expertise {
+        padding: 4px 0
+    }
+    .footer__descr {
+        width: 468px;
+        font-size: 10px;
+        width: 100%
+    }
+    .crypto-item {
+        width: 100%
+    }
+    .footer-socs__item {
+        width: 30px;
+        height: 30px
+    }
+    .footer-socs__item svg {
+        font-size: 16px
+    }
+    .header-box__buy {
+        padding: 3px 28px;
+        font-size: 7px
+    }
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        width: 320px
+    }
+    p {
+        font-size: 9px
+    }
+    .gold-button {
+        margin: 0 auto 14px
+    }
+    .crypto__text {
+        margin-left: 48px;
+        font-size: 9px
+    }
+    .crypto__text::before {
+        width: 42px;
+        height: 1px;
+        left: -48px;
+        bottom: 6px
+    }
+    h2.crypto__title {
+        font-size: 17px;
+        line-height: 25px;
+        width: 179px;
+        margin: 14px 0 23px
+    }
+    .crypto-item__title {
+        font-size: 15px
+    }
+    .crypto-item__text {
+        font-size: 10px
+    }
+    .crypto-item__line {
+        margin: 27px auto 20px
+    }
+    .crypto-item-line__dot {
+        width: 8px;
+        height: 8px
+    }
+    .crypto-item__line::before {
+        top: 2.5px;
+        border-bottom: 2px dotted #414073
+    }
+    pre {
+        font-size: 5px
+    }
+    p {
+        font-size: 6px
+    }
+    .underline.waves-effect {
+        font-size: 6px
+    }
+    .footer__title {
+        margin-bottom: 21px;
+        font-size: 12px
+    }
+    .footer-form__btn {
+        margin-left: 13px;
+        border-radius: 28px;
+        font-size: 10px;
+        height: 31.98px;
+        padding: 11px 37px
+    }
+    input[type=text] {
+        height: 1rem;
+        font-size: 8px !important
+    }
+    .gold-button.sp img {
+        width: 91px
+    }
+    .gold-button.sp {
+        margin-top: 10px
+    }
+    .footer-mail__ic::before {
+        height: 33px;
+        border-left: 1px dashed #a4aebd
+    }
+    .footer-mail__ic::after {
+        top: 38px;
+        width: 24px;
+        border-bottom: 1px dashed #a4aebd
+    }
+    .footer-mail__ic svg {
+        top: 34.5px;
+        left: 24px;
+        font-size: 9px
+    }
+    .footer-mail-email {
+        margin-top: 33px;
+        margin-left: 34px;
+        align-items: center;
+        font-size: 8px
+    }
+    .footer-socs__item {
+        width: 20px;
+        height: 20px
+    }
+    .footer__disc {
+        padding-top: 13px
+    }
+    .footer__c {
+        font-size: 10px
+    }
+    .footer__disc {
+        padding-top: 13px;
+        margin-bottom: 2px;
+        font-size: 10px
+    }
+    h2 {
+        font-size: 1.5rem
+    }
+    .content {
+        margin: 39.33px 0 0
+    }
+    .upper {
+        width: 30px;
+        height: 30px
+    }
+    .footer-socs__item svg {
+        font-size: 9px
+    }
+    .footer-socs__item {
+        margin: 0 3px
+    }
+    .footer-mail-email a {
+        font-size: 9px
+    }
+    .tust-logo__class img {
+        width: 33px;
+        height: 33px
+    }
+    .logo__title {
+        font-size: 12px;
+        margin-left: 0
+    }
+    .content-item__title h2 {
+        margin-right: -30px
+    }
+    h2 {
+        font-size: 2.5rem
+    }
+    .content-item__title img {
+        width: 91px;
+        margin-right: 19px
+    }
+    pre {
+        font-size: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .underline.waves-effect {
+        font-size: 8px
+    }
+    .header-box__buy {
+        padding: 5px 31px
+    }
+    .content-item__date-time h4 {
+        font-size: 23px
+    }
+    p {
+        font-size: 9px
+    }
+    .meta p {
+        text-align: center
+    }
+    p {
+        font-size: 11px
+    }
+    .gold-button.sp {
+        width: 75%;
+        padding: 7px 0
+    }
+}
